@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    overflow: hidden;
+}
+
+.container{
+    max-width: 400px;
+    padding: 0 20px;
+    margin: 120px auto;
+}
+
+.wrapper{
+    width: 100%;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.title{
+    line-height: 80px;
+    background: #16a085;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+form{
+    padding: 30px 25px 25px 25px;
+    background: #FAF6E9;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.row{
+    margin-bottom: 15px;
+    height: 45px;
+    position: relative;
+}
+
+.row input{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.row input:focus{
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.1);
+}
+
+.wrapper form .row i{
+    position: absolute;
+    background: #16a085;
+    height: 100%;
+    width: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.wrapper form .button input{
+    padding-left: 0px;
+    font-size: 20px;
+    background:#16a085;
+    color: #fff;
+    font-weight: 400;
+    border: 1px solid #16a085;
+    cursor: pointer;
+}
+
+form .button input:hover{
+    background: #12876f;
+}
+
+.pass{
+    margin: 10px 0px 10px 0px;
+}
+
+.pass a{
+    text-decoration: none;
+    color: #16a085;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.pass a:hover{
+    text-decoration: underline;
+}
+
+.signup-link{
+    text-align: center;
+    font-size: 17px;
+}
+
+.signup-link a{
+    text-decoration: none;
+    color: #16a085;
+    padding-left: 2px;
+}
+
+.signup-link a:hover{
+    text-decoration: underline;
+}
+
+img{
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    cursor: pointer;
+}
