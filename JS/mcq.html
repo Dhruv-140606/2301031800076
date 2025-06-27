@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+</head>
+<body>
+    <h1>What is the Full form of RAM ?</h1>
+    <button>Random Access Memory</button>
+    <button>Radio Access Memory</button>
+    <h3></h3>
+    <script>
+        document.querySelectorAll("button")[0].addEventListener('click', ()=>{
+            document.querySelector("h3").innerHTML = "Right Answer";
+            document.querySelector("h3").style.color = "green";
+        })
+        document.querySelectorAll("button")[1].addEventListener('click', ()=>{
+            document.querySelector("h3").innerHTML = "Wrong Answer";
+            document.querySelector("h3").style.color = "red";
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="password">Create a Password : </label>
+    <input id="pass-1" type="text" name="password">
+    <label for="password">Confirm Password : </label>
+    <input id="pass-2" type="text" name="password">
+    <button>Submit</button>
+    <script>
+        document.querySelector("button").addEventListener("click", ()=>{
+            let pass1 = document.getElementById("pass-1").value;
+            let pass2 = document.getElementById("pass-2").value;
+            if (pass1 === pass2 && (pass1 != "" && pass2 != "")) {
+                alert("Password created succesfully");
+            }
+            else if((pass1 != "" && pass2 != "")){
+                alert("Wrong password.Try again.") 
+            }
+        })
+    </script>
+</body>
+</html>
